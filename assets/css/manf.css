@@ -1,0 +1,2146 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 2px solid #ab9257;
+    font-size: 1.8em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#myBtn:hover {
+
+background-color: rgba(0, 0, 0, 0.432);
+    color: rgb(255, 255, 255);
+}
+@media (min-width:320px){
+    body{      
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 10em;
+        background-color: #ec872960;
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 20em;
+        padding: 0%;
+        width: 100%;
+        height: 90em;
+        /* background-color: #ec872960; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 60%;
+        padding-left: 5em;
+        padding-right: 5em;
+        overflow-y: scroll;
+        /* background-color: #29ec3360; */
+    }
+    #manf-row{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.459); */
+    }
+    #manf-col{
+        padding: 1.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ae0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0a0a0ae0;
+        
+        /* background-color: #ec872960; */
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0ad0;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 7.5%;
+        padding: 0;
+        width: 85%;
+        height: 30%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        top: -15%;
+        left: 25%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 85%;
+        font-size: 3em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -8%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 82%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:481px) {
+    body{      
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+        background-color: #ec872960;
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0em;
+        padding: 0%;
+        width: 100%;
+        height: 80em;
+        /* background-color: #ec872960; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 75%;
+        padding-left: 7em;
+        padding-right: 7em;
+        overflow-y: scroll;
+        /* background-color: #29ec3360; */
+    }
+    #manf-row{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.459); */
+    }
+    #manf-col{
+        padding: 1.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ae0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0a0a0ae0;
+        
+        /* background-color: #ec872960; */
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0ad0;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 7.5%;
+        padding: 0;
+        width: 85%;
+        height: 40%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        top: -5%;
+        left: 25%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 85%;
+        font-size: 3.5em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -7%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 85%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:641px){
+    body{      
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+        background-color: #ec872960;
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0em;
+        padding: 0%;
+        width: 100%;
+        height: 80em;
+        /* background-color: #ec872960; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 75%;
+        padding-left: 10em;
+        padding-right: 10em;
+        overflow-y: scroll;
+        /* background-color: #29ec3360; */
+    }
+    #manf-row{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.459); */
+    }
+    #manf-col{
+        padding: 1.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ae0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0a0a0ae0;
+        
+        /* background-color: #ec872960; */
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0a00;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 7.5%;
+        padding: 0;
+        width: 85%;
+        height: 50%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        top: 30%;
+        left: 25%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 88%;
+        font-size: 3.5em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -8%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 92.5%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:760px){
+    body{      
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+        background-color: #ec872960;
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0em;
+        padding: 0%;
+        width: 100%;
+        height: 40em;
+        /* background-color: #ec872960; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 75%;
+        padding-left: 0em;
+        padding-right: 0em;
+        /* background-color: #29ec3360; */
+    }
+    #manf-row{
+        position: relative;
+        top: 10%;
+        left: 5%;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.459); */
+    }
+    #manf-col{
+        padding: 0.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ae0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0a0a0ae0;
+        
+        /* background-color: #ec872960; */
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0a00;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 7.5%;
+        padding: 0;
+        width: 85%;
+        height: 50%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        top: 30%;
+        left: 25%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 88%;
+        font-size: 3.5em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -8%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 92.5%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:961px){
+    body{      
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+        background-color: #ec872960;
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0em;
+        padding: 0%;
+        width: 100%;
+        height: 40em;
+        /* background-color: #ec872960; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 75%;
+        padding-left: 0em;
+        padding-right: 0em;
+        /* background-color: #29ec3360; */
+    }
+    #manf-row{
+        position: relative;
+        top: 10%;
+        left: 5%;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.459); */
+    }
+    #manf-col{
+        padding: 0.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ae0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: #0a0a0ae0;
+        
+        /* background-color: #ec872960; */
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0a00;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 7.5%;
+        padding: 0;
+        width: 85%;
+        height: 50%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        top: 30%;
+        left: 25%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 88%;
+        font-size: 3.5em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -8%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 92.5%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:1025px){
+    body{  
+    
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0;
+        padding: 0%;
+        width: 100%;
+        height: 40em;
+        /* background-color: #29ec3360; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        height: 90%;
+        padding-left: 5em;
+        padding-right: 5em;
+        overflow-y: none;
+    }
+    #manf-row{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 15%;
+        width: 100%;
+        height: 70%;
+        /* background-color: skyblue; */
+    }
+    #manf-col{
+        padding: 1.25em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ad0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 60%;
+        overflow: auto;
+        background-color: #0a0a0ad0;
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0ad0;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 25%;
+        padding: 0;
+        width: 50%;
+        height: 50%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: black;
+        position: relative;
+        top: 5%;
+        left: 20%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 73%;
+        font-size: 4em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -10%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 95%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media (min-width:1281px){
+    body{  
+    
+        background-image: url("../imgs/backgrounds/b3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /*-------------------------Manufacturing Slideshow---------------------- */
+    .manuSlide-Sec{
+        position: relative;
+        top: 0;
+        padding: 0%;
+        width: 100%;
+        height: 50em;
+        /* background-color: #29ec3360; */
+    }
+    #manuSlide-Sec h1{
+        position: absolute;
+        top: 5%;
+        left: 0%;
+        width: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+    }
+    
+    #manf-bod{
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        height: 90%;
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+    
+    #manf-col{
+        padding: 1.5em;
+    }
+    
+    #manf-col img{
+        border: 2px solid #64532bbe;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    #manf-col img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 1px 8px #cfa33c;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transition: 0.25s ease-in-out;
+        -webkit-transition: 0.25s ease-in-out;
+        -moz-transition: 0.25s ease-in-out;
+        -ms-transition: 0.25s ease-in-out;
+        -o-transition: 0.25s ease-in-out;
+    }
+    
+    /* The Modal (background) */
+    #modalBody{
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #0a0a0ad0;
+    }
+    
+    #myModal {
+        position: fixed;
+        padding-top: 0px;
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 60%;
+        overflow: none;
+        background-color: #0a0a0ae5;
+    }
+    #caption-row{
+        position: fixed;
+        left: 0;
+        top: 70%;
+        width: 100%;
+        height: 40%;
+        background-color: #0a0a0a00;
+    }
+    
+    
+    /* Modal Content */
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe00;
+        top: 15%;
+        left: 25%;
+        padding: 0;
+        width: 50%;
+        height: 50%;
+        border-radius: 1.1em;
+        -webkit-border-radius: 1.1em;
+        -moz-border-radius: 1.1em;
+        -ms-border-radius: 1.1em;
+        -o-border-radius: 1.1em;
+    }
+    
+    .mySlides {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    .dot-matrix {
+        position: absolute;
+        top: 0;
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+        display: none;
+    }
+    .sliPic {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        border-radius: 0.95em;
+        -webkit-border-radius: 0.95em;
+        -moz-border-radius: 0.95em;
+        -ms-border-radius: 0.95em;
+        -o-border-radius: 0.95em;
+    }
+    #caption-container {
+        text-align: center;
+        background-color: black;
+        position: relative;
+        top: 5%;
+        left: 20%;
+        width: 60%;
+        height: 20%;
+        border: 2px solid #cfa33c;
+        border-radius: 1em;
+        text-transform: none;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+    }
+    
+    #caption{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        height: 50%;
+        font-size: 1.7em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        text-transform: none;
+    }
+    
+    /* The Close Button */
+    #close {
+        background-color: white;
+        position: fixed;
+        top: 10%;
+        left: 73%;
+        font-size: 4em;
+        font-weight: bold;
+        opacity: 1;
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        -ms-border-radius: 100px;
+        -o-border-radius: 100px;
+        z-index: 100;
+    }
+    #close:hover,
+    #close:focus {
+        background-color: #cfa33c;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.6s ease;
+        opacity: 1;
+    }
+    
+    
+    .cursor {
+    cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    #prev,
+    #next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: -10%;
+        width: 3em;
+        height: 2em;
+        right: 0%;
+        padding: 8px;
+        margin-top: -50px;
+        color: rgb(255, 255, 255);
+        background-color: #00000000;
+        font-weight: bold;
+        font-size: 2em;
+        transition: 0.6s ease;
+        user-select: none;
+        -webkit-user-select: none;
+        z-index: 2;
+        border: none;
+        text-align: left;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    
+    /* Position the "next button" to the right */
+    
+    #next {
+        position: absolute;
+        left: 95%;
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    /* On hover, add a black background color with a little bit see-through */
+    #prev:hover,
+    #next:hover {
+        color: #cfa33c;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        z-index: 2;
+        color: white;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.664);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    img {
+        margin-bottom: -4px;
+    }
+    
+    
+    .demo {
+        display:    none;
+    }
+    
+    .active,
+    .demo:hover {
+    opacity: 1;
+    }
+    
+    img.hover-shadow {
+    transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}

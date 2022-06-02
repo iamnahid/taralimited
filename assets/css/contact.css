@@ -1,0 +1,1032 @@
+@media (min-width: 320px){
+    body{
+        padding: 0;
+        margin: 0;
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    #con-row, #con-row1{        
+        padding: 0;
+        margin: 0;
+    }
+    #upFooterBreak{
+        height: 0em;
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 10em;
+        left: 0%;
+        width: 100%;
+        height: 130em;
+    }
+    .title{
+        position: relative;
+        top: 8%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 5%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        height: 15%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row1{
+        top: 10%;
+        position: relative;
+        width: 100%;
+        height: 70%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row-col{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        border: 2px dashed #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: none;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col{
+        height: 20%;
+        /* background-color: rgb(0, 140, 255); */
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    
+    #con-row1-col1-grid-row h5{
+        text-align: center;
+        color: rgb(202, 202, 202);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        color: rgb(28, 95, 241);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+@media (min-width: 481px){
+    body{
+        padding: 0;
+        margin: 0;
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    #con-row, #con-row1{        
+        padding: 0;
+        margin: 0;
+    }
+    #upFooterBreak{
+        height: 0em;
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 80em;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 0%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 15%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row1{
+        top: 10%;
+        position: relative;
+        width: 100%;
+        height: 70%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row-col{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        border: 2px dashed #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: none;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col{
+        height: 20%;
+        /* background-color: rgb(0, 140, 255); */
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    
+    #con-row1-col1-grid-row h5{
+        text-align: center;
+        color: rgb(202, 202, 202);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        letter-spacing: 3px;
+        color: rgba(0, 140, 255, 0.884);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+@media (min-width: 641px){
+    body{
+        padding: 0;
+        margin: 0;
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    #con-row, #con-row1{        
+        padding: 0;
+        margin: 0;
+    }
+    #upFooterBreak{
+        height: 5em;
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 90em;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 0%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 25%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row1{
+        top: 2%;
+        position: relative;
+        width: 100%;
+        height: 70%;
+        /* background-color: rgba(255, 0, 0, 0.404); */
+    }
+    #con-row-col{
+        position: relative;
+        top: 5%;
+        width: 100%;
+        height: 90%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        border: 2px dashed #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: none;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col{
+        height: 20%;
+        /* background-color: rgb(0, 140, 255); */
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    
+    #con-row1-col1-grid-row h5{
+        text-align: center;
+        color: rgb(202, 202, 202);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        letter-spacing: 3px;
+        color: rgba(0, 140, 255, 0.884);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+@media (min-width:961px){
+    body{
+    
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 70em;
+    }
+    .title{
+        position: relative;
+        top: 5%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        width: 100%;
+        height: 40%;
+    }
+    #con-row1{
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    #con-row-col{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 70%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        width: 95%;
+        height: 100%;
+        border: 2px dashed #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: none;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 80%;
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+    }
+    
+    #con-row1-col1-grid-row h5{
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: rgb(202, 202, 202);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        color: rgba(0, 140, 255, 0.884);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+@media (min-width: 1025px){
+    body{
+    
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 0;
+        left: 5%;
+        width: 90%;
+        height: 70em;
+    }
+    .title{
+        position: relative;
+        top: 5%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        width: 100%;
+        height: 40%;
+    }
+    #con-row1{
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    #con-row-col{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 70%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        width: 95%;
+        height: 100%;
+        border: 2px dashed #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: none;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 80%;
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+    }
+    
+    #con-row1-col1-grid-row h5{
+        letter-spacing: 1.5px;
+        text-align: center;
+        color: rgb(202, 202, 202);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 14px;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        color: rgba(0, 140, 255, 0.884);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+@media (min-width: 1281px){
+    body{
+    
+        /* background-color: #111114;
+        background-image: linear-gradient(#191920, #000000);
+        background-image: -webkit-linear-gradient(#191920, #000000);
+        background-image: -moz-linear-gradient(#191920, #000000);
+        background-image: -o-linear-gradient(#191920, #000000); */
+        background-color: #070707;
+        background-image: url('../imgs/backgrounds/back.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        
+    }
+    /* ----------------------------Section---------------------------------- */
+    #contSec{
+        position: relative;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 80em;
+    }
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    .title h1{
+        position: relative;
+        text-align: center;
+        color: #ab9257;
+    }
+    #conGrid{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 90%;
+    }
+    #con-row{
+        position: relative;
+        width: 100%;
+        height: 40%;
+    }
+    #con-row1{
+        position: relative;
+        width: 100%;
+        height: 60%;
+    }
+    #con-row-col{
+        position: relative;
+        top: 15%;
+        width: 100%;
+        height: 70%;
+    }
+    #mapouter{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        width: 95%;
+        height: 100%;
+        border: 3px dotted #ab9257;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #gmap_canvas{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #con-row1-col, #con-row1-col1{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #con-row1-col h1{
+        text-align: center;
+        color: white;
+        letter-spacing: 5px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col p{
+        text-align: center;
+        font-size: 1.1em;
+        color: #ab9257;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #pr{
+        position: relative;
+        top: 0;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 1.1em;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        text-transform: lowercase;
+    }
+    #con-row1-col1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    #con-row1-col1 h1{
+        text-align: center;
+        color: white;
+        letter-spacing: 5px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid{
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 80%;
+    }
+    #con-row1-col1-grid-row
+    {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 33.33%;
+        text-align: center;
+    }
+    
+    #con-row1-col1-grid-row h5{
+        text-align: center;
+        color: rgb(202, 202, 202);
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row p{
+        text-align: center;
+        font-size: 1.1em;
+        color: #ab9257;
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #con-row1-col1-grid-row a{
+        font-weight: bold;
+        color: rgb(40, 190, 250);
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+
+

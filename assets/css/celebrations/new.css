@@ -1,0 +1,445 @@
+  body {
+    /* font-family: "Roboto"; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes confetti-slow {
+    0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+    }
+    100% {
+      transform: translate3d(25px, 105vh, 0) rotateX(360deg) rotateY(180deg);
+    }
+  }
+  @keyframes confetti-medium {
+    0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+    }
+    100% {
+      transform: translate3d(100px, 105vh, 0) rotateX(100deg) rotateY(360deg);
+    }
+  }
+  @keyframes confetti-fast {
+    0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+    }
+    100% {
+      transform: translate3d(-50px, 105vh, 0) rotateX(10deg) rotateY(250deg);
+    }
+  }
+  body{
+    width: 100%;
+    background: #080808 !important;
+  }
+  .jscontainer {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.87) !important;
+    display: fixed;
+    top: 0px;
+  }
+  .confetti-container {
+    perspective: 700px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .confetti {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    border-radius: 0%;
+  }
+  .confetti--animation-slow {
+    animation: confetti-slow 2.25s linear 1 forwards;
+  }
+  .confetti--animation-medium {
+    animation: confetti-medium 1.75s linear 1 forwards;
+  }
+  .confetti--animation-fast {
+    animation: confetti-fast 1.25s linear 1 forwards;
+  }
+  
+  @keyframes tonext {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: 100%;
+    }
+    98% {
+      left: 100%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes tostart {
+    75% {
+      left: 0;
+    }
+    95% {
+      left: -300%;
+    }
+    98% {
+      left: -300%;
+    }
+    99% {
+      left: 0;
+    }
+  }
+  
+  @keyframes snap {
+    96% {
+      scroll-snap-align: center;
+    }
+    97% {
+      scroll-snap-align: none;
+    }
+    99% {
+      scroll-snap-align: none;
+    }
+    100% {
+      scroll-snap-align: center;
+    }
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-width: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #main-container{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    padding-top: 10px;
+    text-align: center;
+    color: #ab9257;
+    font-family: 'Katibeh', cursive;
+    font-size: 3em;
+    text-transform: capitalize;
+  }
+  .director-name{
+    margin: 15px;
+    padding-top: 20px;
+    font-family: 'Charmonman', cursive;
+    text-shadow: 0 0 45px #ab9257, 0 0 1px #e0af3c;
+  }
+  #carousel_container{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 40%;
+    height: 45%;
+    background-color: #18171700 !important;
+  }
+  .carousel, .carousel-inner, .carousel-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 2px solid #ab925769;
+    box-shadow: 0 0 25px #ab925769, 0 0 1px #e0af3c83;
+  }
+  .carousel-item > img{
+    position: relative;
+    width: 90%;
+    height: 110%;
+  }
+  
+  .caption{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    width: 70%;
+    height: 40%;
+    color: #ab9257;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Katibeh', cursive;
+    text-shadow: 0 0 45px #ab92579f, 0 0 1px #e0af3c;
+  }
+
+  .caption span{
+    font-family: 'Charmonman', cursive;
+  }
+  
+  @media (min-width: 320px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.5em;
+    }
+    #main-container h1{
+      padding-top: 5px;
+      font-size: 0.5em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 0%;
+      width: 100%;
+      height: 30%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 65%;
+      left: 0%;
+      width: 100%;
+      color: #ab9257;
+      font-size: 1.1em;
+      text-align: justify;
+    }
+  
+  }
+
+  @media (min-width: 575px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.5em;
+    }
+    #main-container h1{
+      font-size: 0.5em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 2.5%;
+      width: 95%;
+      height: 35%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 70%;
+      left: 0%;
+      width: 100%;
+      color: #ab9257;
+      font-size: 1.2em;
+      text-align: justify;
+    }
+  
+  }
+
+  @media (min-width: 760px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.5em;
+    }
+    #main-container h1{
+      font-size: 0.5em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      width: 80%;
+      height: 45%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 70%;
+      left: 0%;
+      width: 100%;
+      color: #ab9257;
+      font-size: 1.2em;
+      text-align: justify;
+    }
+  
+  }
+  @media (min-width: 961px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.6em;
+    }
+    #main-container h1{
+      font-size: 0.5em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 20%;
+      width: 60%;
+      height: 45%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 75%;
+      left: 5%;
+      width: 90%;
+      color: #ab9257;
+      font-size: 1.2em;
+      text-align: center;
+    }
+  
+  }
+
+  @media (min-width: 1150px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.65em;
+    }
+    #main-container h1{
+      font-size: 0.55em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 25%;
+      width: 50%;
+      height: 40%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 70%;
+      left: 10%;
+      width: 80%;
+      color: #ab9257;
+      font-size: 1.4em;
+      text-align: center;
+    }
+  
+  }
+  @media (min-width: 1151px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.65em;
+    }
+    #main-container h1{
+      font-size: 0.6em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      width: 40%;
+      height: 45%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 75%;
+      left: 15%;
+      width: 70%;
+      color: #ab9257;
+      font-size: 1.4em;
+      text-align: center;
+    }
+  
+  }
+
+  @media (min-width: 1920px){
+    
+    #main-container{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 10px;
+      width: 100%;
+    }
+    #main-container h2{
+      font-size: 0.85em;
+    }
+    #main-container h1{
+      font-size: 0.85em;
+    }
+    #carousel_container{
+      position: absolute;
+      top: 35%;
+      left: 30%;
+      width: 40%;
+      height: 45%;
+      background-color: #18171700 !important;
+    }  
+    .caption{
+      position: absolute;
+      top: 80%;
+      left: 15%;
+      width: 70%;
+      color: #ab9257;
+      font-size: 1.8em;
+      text-align: center;
+    }
+  
+  }

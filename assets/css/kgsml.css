@@ -1,0 +1,758 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 2px solid #ab9257;
+    font-size: 1.8em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#myBtn:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    color: rgb(255, 255, 255);
+}
+
+.image-container h5{
+    position: relative;
+    color: #ab9257 !important;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.KGSML-title{
+    text-shadow: 0 0 45px #ab9257, 0 0 45px #e0af3c;
+}
+
+@media (min-width:320px){
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    #upNavBreak{
+        position: relative;
+        height: 5em;
+    }
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 80em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* background-color: rgba(255, 0, 0, 0.349); */
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 5%;
+        left: 2.5%;
+        margin: 0;
+        padding: 0;
+        width: 95%;
+        height: 80%;
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0%;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 7.5%;
+        left: 2.5%;
+        width: 95%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 10%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+
+}
+
+@media (min-width:481px) {
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    #upNavBreak, #upFooterBreak{
+        position: relative;
+        height: 0em;
+    }
+
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 5%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 90%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+}
+
+@media (min-width:641px){
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    #upNavBreak, #upFooterBreak{
+        position: relative;
+        height: 0em;
+    }
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 5%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 90%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+}
+
+@media (min-width:760px){         
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    #upNavBreak, #upFooterBreak{
+        position: relative;
+        height: 0em;
+    }
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 10%;
+        width: 80%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+}
+
+@media (min-width:961px){         
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    #upNavBreak, #upFooterBreak{
+        position: relative;
+        height: 0em;
+    }
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 20%;
+        width: 60%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+}
+
+@media (min-width:1025px){
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 20%;
+        width: 60%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+
+}
+
+@media (min-width:1281px){
+    
+    body{      
+        background-image: url("../imgs/backgrounds/b1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+    }
+    /* Spin Section */
+
+    /* -------------------------SPIN SECTION------------------ */
+    
+    #KGSML-section{
+        position: relative;
+        top: 0em;
+        left: 0%;
+        width: 100%;
+        height: 60em !important;
+        /* background: rgba(220, 20, 60, 0.24); */
+    }
+    
+    #KGSML-body{
+        position: relative;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #KGSML-row{
+        position: relative;
+        top: 0%;
+        left: 2.5%;
+        margin-top: 0;
+        padding: 0;
+        width: 95%;
+        height: 100%;
+        /* background-color: rgba(255, 255, 255, 0.349); */
+    }
+    #wrapCol{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        height: 100%;
+        margin-bottom: 1em;
+    }
+    .KGSML-title{
+        position: relative;
+        top: 0% !important;
+        width: 100%;
+        height: 5%;
+        text-align: center;    
+        font-size: 2.5em;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    #KGSML-pic
+    {
+        position: relative;
+        top: 0%;
+        left: 30%;
+        width: 40%;
+        height: 30%;
+        background-color: white;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    #KGSML-pic img{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    #KGSML-caption, #KGSML-caption h5    
+    {    
+        position: relative;
+        top: 5%;
+        text-align: center;    
+        font-weight: bold;
+        font-family: 'Alegreya Sans SC', sans-serif;
+        color: #ab9257;
+        letter-spacing: 1px;
+    }
+    #KGSML-caption p   
+    {        
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+
+}
+

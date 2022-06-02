@@ -1,0 +1,737 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 2px solid #ab9257;
+    font-size: 1.8em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#myBtn:hover {
+
+background-color: rgba(0, 0, 0, 0.432);
+    color: rgb(255, 255, 255);
+}
+@media (min-width:320px){
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+    }
+    #csr-gallery, #imgGallery{
+        
+        padding: 0;
+        margin: 0;
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 20em;
+        width: 100%;
+        height: 60em;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+        width: 100%;
+    }
+
+    #csr-title-col{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+    #csr-gallery{
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    .imgGallery{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 50%;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 3px 75px 0px #ab9257;
+
+    }
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        display: none;
+    }
+}
+
+@media (min-width:481px) {
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+    }
+    #csr-gallery, #imgGallery{
+        
+        padding: 0;
+        margin: 0;
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 0em;
+        width: 100%;
+        height: 35em;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+        width: 100%;
+    }
+
+    
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        /* padding: 50%; */
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+    #csr-gallery{
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    .imgGallery{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        width: 100%;
+        height: 60%;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;        
+        box-shadow: 0px 3px 75px 0px #ab9257;
+
+    }
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: round;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 1.5;
+    }
+}
+
+@media (min-width:641px){
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+    }
+    #csr-gallery, #imgGallery{
+        padding: 0;
+        margin: 0;
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 0em;
+        width: 100%;
+        height: 50em;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+        width: 100%;
+    }
+
+    
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        /* padding: 50%; */
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+    #csr-gallery{
+        position: relative;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    .imgGallery{
+        position: relative;
+        top: 20%;
+        left: 5%;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 70%;
+        border: none;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: round;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 1.5;
+    }
+}
+
+@media (min-width:961px){
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        
+    }
+    #upFooterBreak{
+        position: relative;
+        height: 5em;
+    }
+    #csr-gallery, #imgGallery{
+        
+        padding: 0;
+        margin: 0;
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        top: 0em;
+        width: 100%;
+        height: 50em;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+        width: 100%;
+    }
+
+    
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        /* padding: 50%; */
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+    #csr-gallery{
+        position: relative;
+        left: 5%;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.39); */
+    }
+    .imgGallery{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 70%;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 3px 75px 0px #ab9257;
+
+    }
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: round;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 1.5;
+    }
+}
+
+
+@media (min-width:1025px){
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        width: 100%;
+        height: 40em;
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+    }
+
+    #csr-gallery{
+        position: relative;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.548); */
+    }
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        /* padding: 50%; */
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+
+    .imgGallery{
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 0px 3px 75px 0px #ab9257;
+
+    }
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: round;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 1.5;
+    }
+}
+
+
+@media (min-width:1281px){
+    body{      
+        background-image: url("../imgs/backgrounds/b2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    /* CSR Section */
+
+    #csrSec{
+        position: relative;
+        width: 100%;
+        height: 50em;
+    }
+    #csr-container{
+        position: relative;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgba(255, 0, 0, 0.507); */
+    }
+    #csr-title{
+        position: relative;
+        top: 10%;
+        height: 10%;
+    }
+
+    #csr-gallery{
+        position: relative;
+        top: 0%;
+        height: 80%;
+        /* background-color: rgba(255, 0, 0, 0.507); */
+    }
+
+    .title{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+
+    .title > h1{
+        position: relative;
+        /* padding: 50%; */
+        color: #ab9257;
+        letter-spacing: 2px;
+    }
+    .title>p:hover{
+        color: #ab9257;
+    }
+
+    /* --------------------Image Gallery------------------------ */
+
+    .imgGallery{
+        position: relative;
+        top: 15%;
+        left: 15%;
+        width: 70%;
+        height: 75%;
+        border: none;
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.363);
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        box-shadow: 0px 3px 75px 0px #ab9257;
+}
+    #slideImg{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        z-index: 0;
+        transition: ease-in-out ;
+        -webkit-transition: ease-in-out ;
+        -moz-transition: ease-in-out ;
+        -ms-transition: ease-in-out ;
+        -o-transition: ease-in-out ;
+    }
+
+    .dot-matrix{
+        background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+        background-repeat: round;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 1.5;
+        display: none;
+    }
+}

@@ -1,0 +1,2252 @@
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.432);
+        border: 2px solid #ab9257;
+        font-size: 1.8em;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    #myBtn:hover {
+
+        background-color: rgba(0, 0, 0, 0.432);
+        color: rgb(255, 255, 255);
+    }
+
+    @media (min-width:320px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        #upFooterBreak{
+            position: relative;
+            height: 10em;
+        }
+        /* -------BODY------ */
+
+        #profile-body{
+            position: relative;
+            top: 20em;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 170em;
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 95%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 35%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+    
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 50%;
+        }
+        
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 60%;
+            height: 60%;
+            left: 20%;
+            top: 0%;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            font-size: 1.4em;
+        }
+        #md_img_caption h5, #comp{
+            font-size: 1em;
+        }
+
+
+        #md_img_caption h5{
+            color: white;
+        }
+        #md_sec{
+            position: relative;
+            top: 0 !important;
+            height: 35%;
+        }
+
+        #mdPara{
+            position: relative;
+            top: 0 !important;
+            height: 65%;
+        }
+
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 0em;
+            padding-left: 0.25em;
+            padding-right: 0.25em;
+            text-align: justify;
+            color: white;
+            font-size: 0.85em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+        }
+        #profile-table{
+            position: relative;
+            left: 2.5%;
+            top: 5%;
+            width: 95%;
+            height: 90%;
+        }
+
+        #tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 100%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        #tabContainer th h1 {
+            font-weight: bold;
+            font-size: 0.65em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        #tabContainer td {
+            font-weight: normal;
+            font-size: 0.75em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 30%;
+        }
+        #m-profile, #m-row, #m-col{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 0;
+            left: 10%;
+            width: 80%;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 10%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        .location{
+            position: relative;
+            top: 25%;
+            width: 100%;
+            height: 20%;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            left: 0%;
+            width: 100%;
+            height: 40%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width:481px) {
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+
+        #upFooterBreak{
+            position: relative;
+            height: 0;
+        }
+        /* -------BODY------ */
+
+        #profile-body{
+            position: relative;
+            top: 0em;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 170em;
+            /* background-color: rgba(255, 0, 0, 0.438); */
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 95%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 35%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 50%;
+        }
+        
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 60%;
+            height: 60%;
+            left: 20%;
+            top: 0%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25p;
+            -moz-border-radius: 25p;
+            -ms-border-radius: 25p;
+            -o-border-radius: 25p;
+}
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        #md_img_caption h5, #comp{
+            font-size: 1.1em;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+
+        #mdPara{
+            height: 35%;
+        }
+
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: left;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 0em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-align: justify;
+            color: white;
+            font-size: 0.95em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+        }
+        #profile-table{
+            position: relative;
+            left: 2.5%;
+            top: 5%;
+            width: 95%;
+            height: 90%;
+        }
+
+        #tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 100%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        #tabContainer th h1 {
+            font-weight: bold;
+            font-size: 0.75em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        #tabContainer td {
+            font-weight: normal;
+            font-size: 0.9em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 30%;
+        }
+        #m-profile, #m-row, #m-col{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 0;
+            left: 10%;
+            width: 80%;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        .location{
+            position: relative;
+            top: 25%;
+            width: 100%;
+            height: 60%;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            left: 0%;
+            width: 100%;
+            height: 60%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width:641px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+
+        #upFooterBreak{
+            position: relative;
+            height: 0;
+        }
+        /* -------BODY------ */
+
+        #profile-body{
+            position: relative;
+            top: 0em;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 170em;
+            /* background-color: rgba(255, 0, 0, 0.438); */
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 95%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 35%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 50%;
+        }
+        
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 40%;
+            height: 40%;
+            left: 30%;
+            top: 0%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+    }
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            font-size: 1.9em;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+        #md_img_caption h5, #comp{
+            
+            font-size: 1.2em;
+        }
+
+        #mdPara{
+            height: 35%;
+        }
+
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 1.5em;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            text-align: center;
+            color: white;
+            font-size: 0.95em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+        }
+        #profile-table{
+            position: relative;
+            left: 2.5%;
+            top: 0%;
+            width: 95%;
+            height: 90%;
+        }
+
+        #tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 100%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        #tabContainer th h1 {
+            font-weight: bold;
+            font-size: 0.95em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        #tabContainer td {
+            font-weight: normal;
+            font-size: 0.95em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 30%;
+        }
+        #m-profile, #m-row, #m-col{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 0;
+            left: 10%;
+            width: 80%;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+            left: 10%;
+            width: 80%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        .location{
+            position: relative;
+            top: 45%;
+            width: 100%;
+            height: 60%;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            top: 10%;
+            left: 0%;
+            width: 100%;
+            height: 60%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width: 760px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+
+        #upFooterBreak{
+            position: relative;
+            height: 0;
+        }
+        /* -------BODY------ */
+
+        #profile-body{
+            position: relative;
+            top: 0em;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 130em;
+            /* background-color: rgba(255, 0, 0, 0.438); */
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 95%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 25%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            top: 0 !important;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #md_img{
+            position: relative;
+            width: 100%;
+            top: 0%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 60%;
+            height: 60%;
+            left: 20%;
+            top: 0%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px; 
+        }
+
+        #md_img_caption{
+            position: relative;
+            top: 10%;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            font-size: 1.4em;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+        #md_img_caption h5, #comp{
+            font-weight: normal;
+            font-size: 1.1em;
+        }
+
+        #mdPara{
+            position: relative;
+            top: 0%;
+            height: 35%;
+        }
+
+        #mdPara h2{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            text-align: left;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            padding-top: 1.5em;
+            padding-left: 2em;
+            padding-right: 2em;
+            text-align: justify;
+            color: white;
+            font-size: 0.95em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 20%;
+        }
+        #profile-table{
+            position: relative;
+            left: 2.5%;
+            top: 0%;
+            width: 95%;
+            height: 90%;
+        }
+
+        #tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 100%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        #tabContainer th h1 {
+            font-weight: bold;
+            font-size: 0.95em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        #tabContainer td {
+            font-weight: normal;
+            font-size: 0.95em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 30%;
+        }
+        #m-profile, #m-row, #m-col{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 0;
+            left: 0%;
+            width: 100%;
+        }
+
+        #m2{
+            position: relative;
+            top: 30%;
+            left: 0%;
+            width: 100%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            position: relative;
+            top: 0;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 15%;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+        }
+
+        .location{
+            position: relative;
+            top: 45%;
+            width: 100%;
+            height: 60%;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            top: 10%;
+            left: 0%;
+            width: 100%;
+            height: 60%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width:961px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        /* -------BODY------ */
+        #profile-body{
+            position: relative;
+            width: 100%;
+            height: 150em;
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 35%;
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        #mdPara{
+            position: relative;
+            top: 10% !important;
+            height: 90%;
+        }
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: left;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+            text-align: justify;
+            color: white;
+            font-size: 0.9em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 60%;
+            height: 60%;
+            left: 20%;
+            top: 25%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px; 
+        }
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 20%;
+        }
+        #profile-table{
+            position: relative;
+            left: 5%;
+            width: 90%;
+            height: 100%;
+        }
+
+        .tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 90%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        .tabContainer th h1 {
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        .tabContainer td {
+            font-weight: normal;
+            font-size: 1.05em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 5;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            height: 15%;
+        }
+
+        .location{
+            position: relative;
+            top: 10%;
+            width: 100%;
+            height: 355px;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            left: 10%;
+            width: 80%;
+            height: 100%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width:1025px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        /* -------BODY------ */
+        #profile-body{
+            position: relative;
+            width: 100%;
+            height: 150em;
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 35%;
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        #mdPara{
+            position: relative;
+            top: 20%;
+        }
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: left;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+            text-align: justify;
+            color: white;
+            font-size: 0.9em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 50%;
+            height: 50%;
+            left: 25%;
+            top: 15%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px; 
+        }
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 20%;
+        }
+        #profile-table{
+            position: relative;
+            left: 5%;
+            width: 90%;
+            height: 100%;
+        }
+
+        .tabContainer {
+            position: relative;
+            left: 5%;
+            text-align: center;
+            width: 90%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        .tabContainer th h1 {
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        .tabContainer td {
+            font-weight: normal;
+            font-size: 1.05em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            left: 5%;
+            width: 90%;
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 5;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            height: 15%;
+        }
+
+        .location{
+            position: relative;
+            top: 10%;
+            width: 100%;
+            height: 355px;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            left: 10%;
+            width: 80%;
+            height: 100%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    @media (min-width: 1281px){
+        
+        body{      
+            
+            background-color: #000000;
+            background-image: url("../../imgs/backgrounds/back.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            
+        }
+        /* -------BODY------ */
+        #profile-body{
+            position: relative;
+            width: 100%;
+            height: 180em;
+        }
+
+        #profile-body h1{  
+            width: 100%;
+            height: 5%;
+            text-align: center;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+            color: #ab9257;
+            letter-spacing: 2px;
+        }
+
+        #profile{
+            position: relative;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+        }
+
+        #profile-row{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 35%;
+        }
+
+        #profile-col{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        /* -------- MD Sir Sectio ---------------- */
+        #mdPara, #md_sec{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        #mdPara h2{
+            position: relative;
+            width: 100%;
+            text-align: left;
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #ab9257;
+        }
+        #mdPara p{
+            position: relative;
+            width: 100%;
+            padding-top: 2em;
+            padding-left: 5em;
+            padding-right: 5em;
+            text-align: justify;
+            color: white;
+            font-size: 0.9em;
+            font-family: 'Open Sans', sans-serif;
+            letter-spacing: 2px;
+        }
+        #md_img{
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+
+        #md_img img{
+            position: relative;
+            width: 40%;
+            height: 40%;
+            left: 30%;
+            top: 15%;
+            border: none;
+            border-radius: 25px;
+            box-shadow: 0px 3px 75px 0px #ab9257;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px; 
+        }
+
+        #md_img_caption{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        #md_img_caption h3, #md_img_caption h5, #comp{    
+            color: #ab9257;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        #md_img_caption h5{
+            color: white;
+        }
+
+        /* ------- Table Section ----------------- */
+        #profile-row1{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 20%;
+        }
+        #profile-table{
+            position: relative;
+            left: 5%;
+            width: 90%;
+            height: 100%;
+        }
+
+        .tabContainer {
+            position: relative;
+            left: 0%;
+            text-align: center;
+            width: 90%;
+            display: table;
+            padding: 0 0 5em 0;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+            background-color: #ffffff00;
+        }
+        .tabContainer th h1 {
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1.5px;
+            text-align: center;
+            color: #caa857;
+        }
+        .tabContainer td {
+            font-weight: normal;
+            font-size: 1.05em;
+            -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+            -moz-box-shadow: 0 2px 2px -2px #0E1119;
+            box-shadow: 0 2px 2px -2px #0E1119;    
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .tabContainer tr:nth-child(odd) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer tr:nth-child(even) {
+            color: #caa857;
+            background-color: #121213;
+        }
+
+        .tabContainer th {
+            background-color: rgb(37, 37, 39);
+        }
+
+        .tabContainer td:first-child { color: #caa857;font-weight:bold; }
+
+        .tabContainer td:hover {
+            background-color: #cc9f36;
+            color: white;
+            font-weight: bold;
+            box-shadow: #cc9f36b6 -1px 1px, #cc9f36b6 -2px 2px, #cc9f36b6 -3px 3px, #cc9f36b6 -4px 4px, #cc9f36b6 -5px 5px, #cc9f36b6 -6px 6px;
+            transform: translate3d(3px, -3px, 0);
+            transition-delay: 0s;
+            transition-duration: 0s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+
+        @media (max-width: 800px) {
+            .tabContainer td:nth-child(4),
+            .tabContainer th:nth-child(4) { display: none; }
+        } 
+
+        #tabContainer-tr th h1{
+            font-size: 1.25em;
+        }
+        #tabContainer-tr td{
+            font-size: 1.25em;
+        }
+     
+
+        /* ----------   Graphs -------------- */
+        #profile-row2{
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 25%;
+        }
+        .m1 h4, .m2 h4{
+            position: relative;  
+            color: #cc9f36;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+        .m1{
+            position: relative;
+            top: 5;
+        }
+
+        #m2{
+            position: relative;
+            top: 10%;
+        }
+
+        /* ---M1--- */
+        #ballonText{
+            width:150px;
+            height: 5px;
+            margin-bottom:30px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+            line-height: 15px;
+            letter-spacing: 3px;
+            font-size: 2em;
+            border-radius:100px;
+            color: white;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            -webkit-border-radius:100px;
+            -moz-border-radius:100px;
+            -ms-border-radius:100px;
+            -o-border-radius:100px;
+        }
+        #chartdiv {
+            position: relative;
+            top: 15px;
+            width: 85%;
+            height: 300px;
+            font-size: 12px;
+        }
+
+        .amcharts-graph-g1 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-graph-g2 .amcharts-graph-fill {
+            filter: url(#blur);
+        }
+
+        .amcharts-cursor-fill {
+            filter: url(#shadow);
+        } 
+
+        /* -------------------------------LOCATION----------------------------- */
+        #profile-row3{
+            height: 20%;
+        }
+
+        .location{
+            position: relative;
+            top: 10%;
+            width: 100%;
+            height: 355px;
+        }
+        .det{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+        .loc{
+            position: relative;
+            left: 10%;
+            width: 80%;
+            height: 100%;
+            border: 2px solid #ab9257;
+            border-radius: 5px;
+        }
+
+        .gmap_canvas, .gmap_iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    #profile-row3 p{
+        position: relative;    
+        font-size: large;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+    #profile-row3 span{
+        font-weight: bold;
+        color: #ab9257;
+    }
